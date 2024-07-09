@@ -7,7 +7,11 @@ HE4.html
 .Rhistory
 renv.lock
 renv/activate.R
+HE1_files
 HE2_files
+HE3_files
+syn_files
+
 .DS_Store
 CD20_files
 CD20.dzi
