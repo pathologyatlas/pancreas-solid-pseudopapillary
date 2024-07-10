@@ -1,49 +1,7 @@
-
-
-
-
 # pancreas-solid-pseudopapillary
 
 
 **pancreas-solid-pseudopapillary for pathology atlas repositories**
-
-
-{{< include ./_subchapters/_pancreas-solid-pseudopapillary.qmd >}}
-
-
-```
-see [make-html-WSI](https://github.com/pathologyatlas/make-html-WSI) for more information and [TODO](https://github.com/pathologyatlas/TODO) to add cases
-```
-
-
-
-```zsh
-
-vips dzsave HE.svs HE
-
-```
-
-
-```
-update html file to match .dzi file
-
-```
-
-
-> consider using git_push.sh script to upload files to github, since the number of generated files is huge
-
-> after upload complete, do not forget to activate github pages for the new repository
-
-
-
-
-
-update html file heading:
-<title>Pancreas Solid Pseudopapillary Neoplasm Pankreas Solid Psödopapiller Neoplazm</title>
-<meta name="keywords" content="Pancreas Solid Pseudopapillary Neoplasm, Pankreas Solid Psödopapiller Neoplazm, patoloji, atlas, pathology, whole slide image">
-<meta name="description" content="Pancreas Solid Pseudopapillary Neoplasm Pankreas Solid Psödopapiller Neoplazm">
-
-
 
 
 
