@@ -22,7 +22,7 @@
 # increases the git http buffer size to 500 MB
 # git config --global http.postBuffer 524288000
 
-# files=( $(find ./ -type f) )
+files=( $(find ./HE1_files -type f) )
 
 # Get all tracked files, respecting .gitignore
 # mapfile -t files < <(git ls-files)
@@ -35,7 +35,7 @@ IFS=$'\n' read -d '' -r -a tracked_files < <(git ls-files)
 IFS=$'\n' read -d '' -r -a untracked_files < <(git ls-files --others --exclude-standard)
 
 # Combine tracked and untracked files
-files=("${tracked_files[@]}" "${untracked_files[@]}")
+# files=("${tracked_files[@]}" "${untracked_files[@]}")
 
 batch_size=4000
 total_files=${#files[@]}
@@ -72,7 +72,7 @@ do
     echo "Batch number $((i+1)) has been processed."
   fi
   
-  sleep 120
+  sleep 30
 done
 
 # Final check for any remaining untracked files
