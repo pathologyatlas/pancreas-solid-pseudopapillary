@@ -244,6 +244,23 @@ See Microscopy with viewer:
 
 
 
+
+
+---
+
+### Viewing Modes
+
+- [All Stains (Sequential)](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/all.html) - Browse HE1, HE2, HE3, HE4, betacatenine, syn stains in sequence
+- [Side by Side Comparison](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/sidebyside.html) - View stains in synchronized panels
+- [Curtain Comparison](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/curtain.html) - Overlay two stains with a draggable slider
+
+### Görüntüleme Modları
+
+- [Tüm Boyamalar (Sıralı)](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/all.html) - Tüm boyamaları sırayla inceleyin
+- [Yan Yana Karşılaştırma](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/sidebyside.html) - Boyamaları eş zamanlı panellerde görüntüleyin
+- [Perde Karşılaştırma](https://images.patolojiatlasi.com/pancreas-solid-pseudopapillary/curtain.html) - İki boyamayı sürgülü perde ile karşılaştırın
+
+
 ```yaml
 - stainname: pancreas-solid-pseudopapillary-HE1
   reponame: pancreas-solid-pseudopapillary
